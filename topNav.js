@@ -19,7 +19,7 @@ export default TopNav
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: "red",
+        backgroundColor: "#b80000",
         width: "100%",
         height: "15%",
     },
@@ -31,7 +31,9 @@ const styles = StyleSheet.create({
         marginTop: 60,
         marginBottom: 10,
         textAlign: "center",
-        color: "white"
+        color: "white",
+        fontWeight: "bold",
+        fontSize: 20
     },
     topNavItem: {
         color: "white"
