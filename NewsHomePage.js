@@ -4,7 +4,7 @@ import { ScrollView } from 'react-native'
 
 const NewsHomePage = () => {
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
         <Pressable>
             <Image source={{ uri: "https://picsum.photos/200/300?random=1"}} style={styles.image}></Image>
             <View style={styles.card}>
